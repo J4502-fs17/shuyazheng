@@ -4,6 +4,10 @@
   color: red;
 }*/
 
+img{
+  border: none;
+}
+
 p{
   color: black;
   font-family: 'Merriweather Sans', helvetica, arial, sans-serif;
