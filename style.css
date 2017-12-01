@@ -4,6 +4,20 @@
   color: red;
 }*/
 
+.map-wrapper {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-wrapper iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
 
 nav ul li {
     display: block;
@@ -182,6 +196,10 @@ h1{
   /*font-family: Georgia, "times new roman", serif;*/
   font-family: 'Merriweather', Georgia, "times new roman", serif;
   color: green;
+}
+
+h3 {
+  color: black;
 }
 
 body{
